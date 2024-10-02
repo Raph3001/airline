@@ -76,5 +76,11 @@
     "name": "Austrian Airlines",
     "icaoCode": "AUA",
     "country": "Austria"
+  },
+  {
+    "iataCode": "MN",
+    "name": "Mongolian International Airlines",
+    "icaoCode": "MGL",
+    "country": "Mongolia"
   }
 ]
