@@ -1,0 +1,80 @@
+[
+  {
+    "iataCode": "AI",
+    "name": "Air India",
+    "icaoCode": "AIC",
+    "country": "India"
+  },
+  {
+    "iataCode": "BA",
+    "name": "British Airways",
+    "icaoCode": "BAW",
+    "country": "United Kingdom"
+  },
+  {
+    "iataCode": "AA",
+    "name": "American Airlines",
+    "icaoCode": "AAL",
+    "country": "United States"
+  },
+  {
+    "iataCode": "AY",
+    "name": "Finnair",
+    "icaoCode": "FIN",
+    "country": "Finland"
+  },
+  {
+    "iataCode": "AM",
+    "name": "Aeromexico",
+    "icaoCode": "AMX",
+    "country": "Mexico"
+  },
+  {
+    "iataCode": "AZ",
+    "name": "Alitalia",
+    "icaoCode": "AZA",
+    "country": "Italy"
+  },
+  {
+    "iataCode": "AR",
+    "name": "Aerolineas Argentinas",
+    "icaoCode": "ARG",
+    "country": "Argentina"
+  },
+  {
+    "iataCode": "AF",
+    "name": "Air France",
+    "icaoCode": "AFR",
+    "country": "France"
+  },
+  {
+    "iataCode": "CI",
+    "name": "China Airlines",
+    "icaoCode": "CAL",
+    "country": "China"
+  },
+  {
+    "iataCode": "EK",
+    "name": "Emirates",
+    "icaoCode": "UAE",
+    "country": "United Emirates"
+  },
+  {
+    "iataCode": "CX",
+    "name": "Cathay Pacific",
+    "icaoCode": "CPA",
+    "country": "Australia"
+  },
+  {
+    "iataCode": "LH",
+    "name": "Lufthansa",
+    "icaoCode": "DLH",
+    "country": "Germany"
+  },
+  {
+    "iataCode": "OS",
+    "name": "Austrian Airlines",
+    "icaoCode": "AUA",
+    "country": "Austria"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "iataCode": "LAX",
+    "icaoCode": "KLAX",
+    "name": "Los Angeles INTL",
+    "country": "United States",
+    "latitude": 33.9425,
+    "longitude": -118.409
+  },
+  {
+    "iataCode": "JFK",
+    "icaoCode": "KJFK",
+    "name": "John F Kennedy INTL",
+    "country": "United States",
+    "latitude": 40.6398,
+    "longitude": -73.7787
+  },
+  {
+    "iataCode": "VIE",
+    "icaoCode": "LOWW",
+    "name": "Vienna",
+    "country": "Austria",
+    "latitude": 48.1103,
+    "longitude": 16.5781
+  },
+  {
+    "iataCode": "FRA",
+    "icaoCode": "EDDF",
+    "name": "Frankfurt INTL",
+    "country": "Germany",
+    "latitude": 50.0406,
+    "longitude": 8.55603
+  },
+  {
+    "iataCode": "MUC",
+    "icaoCode": "EDDM",
+    "name": "Munich International",
+    "country": "Germany",
+    "latitude": 48.3538,
+    "longitude": 11.7861
+  },
+  {
+    "iataCode": "GRZ",
+    "icaoCode": "LOWG",
+    "name": "Graz",
+    "country": "Austria",
+    "latitude": 46.9936,
+    "longitude": 15.44
+  },
+  {
+    "iataCode": "LHR",
+    "icaoCode": "EGLL",
+    "name": "Heathrow",
+    "country": "United Kingdom",
+    "latitude": 51.4729,
+    "longitude": -0.45061
+  },
+  {
+    "iataCode": "ZRH",
+    "icaoCode": "LSZH",
+    "name": "Zurich",
+    "country": "Suisse",
+    "latitude": 47.4647,
+    "longitude": 8.5492
+  }
+]

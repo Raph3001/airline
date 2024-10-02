@@ -1,0 +1,92 @@
+[
+  {
+    "icaoCode": "A318",
+    "iataCode": "318",
+    "manufacturer": "Airbus",
+    "modelName": "A318"
+  },
+  {
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "manufacturer": "Airbus",
+    "modelName": "A320"
+  },
+  {
+    "icaoCode": "A342",
+    "iataCode": "342",
+    "manufacturer": "Airbus",
+    "modelName": "A340-200"
+  },
+  {
+    "icaoCode": "A343",
+    "iataCode": "343",
+    "manufacturer": "Airbus",
+    "modelName": "A340-300"
+  },
+  {
+    "icaoCode": "A345",
+    "iataCode": "345",
+    "manufacturer": "Airbus",
+    "modelName": "A340-500"
+  },
+  {
+    "icaoCode": "A346",
+    "iataCode": "346",
+    "manufacturer": "Airbus",
+    "modelName": "A340-600"
+  },
+  {
+    "icaoCode": "B721",
+    "iataCode": "721",
+    "manufacturer": "Boeing",
+    "modelName": "727-100"
+  },
+  {
+    "icaoCode": "B722",
+    "iataCode": "722",
+    "manufacturer": "Boeing",
+    "modelName": "727-200"
+  },
+  {
+    "icaoCode": "B732",
+    "iataCode": "732",
+    "manufacturer": "Boeing",
+    "modelName": "737-200"
+  },
+  {
+    "icaoCode": "B743",
+    "iataCode": "743",
+    "manufacturer": "Boeing",
+    "modelName": "747-300"
+  },
+  {
+    "icaoCode": "B744",
+    "iataCode": "744",
+    "manufacturer": "Boeing",
+    "modelName": "747-400"
+  },
+  {
+    "icaoCode": "B763",
+    "iataCode": "763",
+    "manufacturer": "Boeing",
+    "modelName": "767-300"
+  },
+  {
+    "icaoCode": "B772",
+    "iataCode": "772",
+    "manufacturer": "Boeing",
+    "modelName": "777-200"
+  },
+  {
+    "icaoCode": "DC91",
+    "iataCode": "D91",
+    "manufacturer": "McDonnell Douglas",
+    "modelName": "DC-9-10"
+  },
+  {
+    "icaoCode": "MD11",
+    "iataCode": "M11",
+    "manufacturer": "McDonnell Douglas",
+    "modelName": "MD-11"
+  }
+]
