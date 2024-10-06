@@ -11,8 +11,10 @@ import java.util.List;
 
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
+    @Query(name = "Flight.findByDepAirport_IataCodeOrderByDayOfWeekAscDepTimeAsc")
     List<Flight> findByDepAirport_IataCodeOrderByDayOfWeekAscDepTimeAsc(String iataCode);
 
+    @Query(name = "Flight.findByArrAirport_IataCodeOrderByDayOfWeekAscArrTimeAsc")
     List<Flight> findByArrAirport_IataCodeOrderByDayOfWeekAscArrTimeAsc(String iataCode);
 
     @Query(name = "Flight.findDomesticToInternationalFlights")
