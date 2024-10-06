@@ -62,5 +62,13 @@
     "country": "Suisse",
     "latitude": 47.4647,
     "longitude": 8.5492
+  },
+  {
+    "iataCode": "UBN",
+    "icaoCode": "ZMCK",
+    "name": "Chinggis Khaan International Airport",
+    "country": "Mongolia",
+    "latitude": 47.6513,
+    "longitude": 106.8208
   }
 ]

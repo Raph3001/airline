@@ -21,6 +21,25 @@ import java.time.DayOfWeek;
 @NoArgsConstructor
 @Entity
 @Builder
+@NamedQueries({
+        @NamedQuery(name = "Flight.findByDepAirport_IataCodeOrderByDayOfWeekAscDepTimeAsc",
+                query = "SELECT f FROM Flight f INNER JOIN Airport ap ON f.depAirport.airportId = ap.airportId WHERE ap.iataCode = :iataCode ORDER BY f.dayOfWeek, f.depTime"),
+        @NamedQuery(name = "Flight.findByArrAirport_IataCodeOrderByDayOfWeekAscArrTimeAsc",
+                query = "SELECT f FROM Flight f WHERE f.arrAirport.iataCode = :iataCode ORDER BY f.dayOfWeek, f.arrTime"),
+        @NamedQuery(name = "Flight.findDomesticToInternationalFlights",
+                query = "SELECT f FROM Flight f WHERE f.airline.country = f.depAirport.country AND f.arrAirport.country <> f.airline.country"),
+        @NamedQuery(name = "Flight.findAircraftsOfAirline",
+                query = "SELECT a.name, COUNT(DISTINCT ac.aircraftId) as aircraftCount " +
+                        "FROM Flight f " +
+                        "JOIN f.airline a " +
+                        "JOIN f.aircraft ac " +
+                        "GROUP BY a.name " +
+                        "ORDER BY aircraftCount DESC, a.name ASC"),
+        @NamedQuery(name = "Flight.findAircraftTypes",
+                query = "SELECT ac.manufacturer, ac.modelName FROM Flight f INNER JOIN Airport da ON da.iataCode = :depAirport " +
+                        "INNER JOIN Airport aa ON aa.iataCode = :arrAirport " +
+                        "INNER JOIN Aircraft ac ON ac.aircraftId = f.aircraft.aircraftId")
+})
 public class Flight {
 
     @Id
@@ -51,5 +70,5 @@ public class Flight {
     private String arrTime;
 
     @Column(nullable = false)
-    private String dayOfWeek;
+    private DayOfWeek dayOfWeek;
 }

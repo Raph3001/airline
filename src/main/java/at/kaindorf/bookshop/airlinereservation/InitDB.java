@@ -34,7 +34,7 @@ public class InitDB {
     private final AircraftRepository aircraftRepository;
     private final AirlineRepository airlineRepository;
     private final AirportRepository airportRepository;
-    private final FlightRepository flightRepository;
+    public final FlightRepository flightRepository;
     @PostConstruct
     public void initDb() {
         List<Aircraft> aircrafts = new ArrayList<>();
@@ -118,7 +118,7 @@ public class InitDB {
                 String arr = flightData[4];
                 String depTime = flightData[5];
                 String arrTime = flightData[6];
-                String dayOfWeek = flightData[7];
+                DayOfWeek dayOfWeek = DayOfWeek.valueOf(flightData[7]);
 
                 Airline airline = airlines.stream().filter(a -> a.getIataCode().equals(airlineIata)).findFirst().get();
                 Aircraft aircraft = aircrafts.stream().filter(a -> a.getIcaoCode().equals(aircraftType)).findFirst().get();

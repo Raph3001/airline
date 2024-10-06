@@ -1,6 +1,7 @@
 package at.kaindorf.bookshop.airlinereservation.pojos;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -21,6 +22,11 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Builder
+//@JsonIgnoreProperties(ignoreUnknown = true)
+
+@NamedQueries({
+    @NamedQuery(name = "Aircraft.findBySomething", query = "SELECT a FROM Aircraft a WHERE a.modelName = :name") // instead of :... you can also use ?1
+})
 public class Airport {
 
     @Id
